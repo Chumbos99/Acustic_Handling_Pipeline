@@ -1,8 +1,8 @@
-# CSV to Parquet Converter
+# Acustic Handling Pipeline
 
 ## 1. Project Overview
 
-**CSV to Parquet Converter** is a Python-based tool designed to convert CSV files into Parquet format efficiently. Additionally, the project includes a graphical user interface (GUI) for directory selection and file management, providing a user-friendly experience.
+**Acustic Handling Pipeline** is a Python-based tool designed to be the first steps of the pipeline for handling acustic data. Additionally, the project includes a graphical user interface (GUI) for directory selection and file management, providing a user-friendly experience.
 
 ---
 
@@ -26,7 +26,8 @@ Before running the project, ensure that the following dependencies are installed
 - **Tkinter**: Built into Python for GUI handling.
 - **ThreadPoolExecutor**: Part of Python's `concurrent.futures` for multi-threading (no additional installation required).
 - **Spark**: For reading Parquet files if using the second script (`pip install pyspark`).
-
+- **Tensorflow**: For utilizing the STFT on the data (`pip install tensorflow`).
+- **Pythorch**: For another wway of utilizing the STFT on the data (`pip3 install torch torchvision torchaudio `).
 ---
 
 4. Installation
