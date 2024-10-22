@@ -2,5 +2,7 @@
 """
 This makes the `sql_package` directory a Python module.
 """
-from .csv_to_parquet import convert_csv_to_parquet, choose_directory
-from .VisualizeFile import choose_output_directory, read_selected_parquet_files, choose_parquet_files
+from .csv_to_parquet import CSVToParquetConverter
+from .VisualizeFile import ParquetFileHandler
+from .STFT import ShortTimeFourierTransform
+from .directory_selector import DirectorySelector
